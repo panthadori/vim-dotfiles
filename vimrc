@@ -1,10 +1,17 @@
+filetype plugin on
+
 call plug#begin('~/.vim/plugged')
 
+Plug 'benmills/vimux'
+Plug 'greghor/vim-pyShell'
+Plug 'julienr/vim-cellmode'
 Plug 'junegunn/vim-easy-align'
-Plug 'nanotech/jellybeans.vim'
-Plug 'valloric/youcompleteme'
+Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
 
 call plug#end()
+
+filetype plugin indent on
 
 set number
 set hlsearch
@@ -23,5 +30,4 @@ set smarttab
 set tabstop=2
 
 syntax on
-colorscheme jellybeans
-
+colorscheme gruvbox
